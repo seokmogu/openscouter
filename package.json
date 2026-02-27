@@ -1,17 +1,17 @@
 {
-  "name": "openclaw",
+  "name": "openscouter",
   "version": "2026.2.27",
-  "description": "Multi-channel AI gateway with extensible messaging integrations",
+  "description": "AI-powered talent scouting harness. Find, evaluate, match, and contact talent.",
   "keywords": [],
-  "homepage": "https://github.com/openclaw/openclaw#readme",
+  "homepage": "https://github.com/seokmogu/openscouter#readme",
   "bugs": {
-    "url": "https://github.com/openclaw/openclaw/issues"
+    "url": "https://github.com/seokmogu/openscouter/issues"
   },
   "license": "MIT",
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openclaw/openclaw.git"
+    "url": "git+https://github.com/seokmogu/openscouter.git"
   },
   "bin": {
     "openclaw": "openclaw.mjs"
