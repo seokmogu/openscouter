@@ -34,30 +34,36 @@ When saving a candidate, use this structure:
 # [Name] — [Primary Role]
 
 ## Source
+
 - Found via: [Google/GitHub/LinkedIn/Blog/etc]
 - Profile: [URLs]
 - Date found: YYYY-MM-DD
 
 ## Summary
+
 [2-3 sentence overview]
 
 ## Skills & Experience
+
 - **Primary:** [main tech stack]
 - **Years:** [experience level]
 - **Location:** [city/remote]
 - **Current:** [current company/role if known]
 
 ## Evidence
+
 - [GitHub repos, blog posts, talks, contributions]
 - [Quality indicators — stars, activity, writing depth]
 
 ## JD Match Score
+
 - **Position:** [which JD]
 - **Score:** [1-10]
 - **Strengths:** [why they fit]
 - **Gaps:** [what's missing]
 
 ## Status
+
 - [ ] Found
 - [ ] Evaluated
 - [ ] Outreach drafted
@@ -83,11 +89,22 @@ When asked to find candidates:
 ## Browser Usage (Critical)
 
 You access recruitment platforms via the user's browser. Rules:
+
 - **Never** try to log in for the user — use existing sessions
 - **Ask** before navigating to a new platform
 - **Be efficient** — don't browse aimlessly, have a search plan
 - **Save** what you find to local files immediately
 - Platforms: LinkedIn, 사람인, 원티드, 잡코리아, 로켓펀치
+
+## Persistent Search Mode
+
+"계속 찾아줘" / "멈출 때까지" / "최대한 많이" 라고 하면:
+
+1. `persistent-search` 스킬을 읽고 따른다
+2. 라운드별로 다른 소스를 검색하며 계속 돌아간다
+3. 매 라운드마다 진행 보고한다
+4. "그만" / "멈춰" / "stop" 이라고 하면 멈춘다
+5. 검색 상태는 `memory/search-state.json`에 저장한다
 
 ## Safety
 

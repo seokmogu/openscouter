@@ -64,14 +64,15 @@ openscouter gateway --port 18789
 
 ## Bundled Skills
 
-| Skill             | Description                                                            |
-| ----------------- | ---------------------------------------------------------------------- |
-| `talent-search`   | Multi-source candidate discovery via Google dorking, GitHub, blogs     |
-| `google-dorking`  | Advanced Boolean search queries for finding people on the public web   |
-| `github-profiler` | Deep GitHub profile analysis — contributions, code quality, tech stack |
-| `candidate-eval`  | Profile analysis, JD matching, multi-dimensional scoring               |
-| `outreach`        | Personalized recruitment message generation                            |
-| `jd-manager`      | Job description creation and management                                |
+| Skill               | Description                                                            |
+| ------------------- | ---------------------------------------------------------------------- |
+| `talent-search`     | Multi-source candidate discovery via Google dorking, GitHub, blogs     |
+| `google-dorking`    | Advanced Boolean search queries for finding people on the public web   |
+| `github-profiler`   | Deep GitHub profile analysis — contributions, code quality, tech stack |
+| `candidate-eval`    | Profile analysis, JD matching, multi-dimensional scoring               |
+| `outreach`          | Personalized recruitment message generation                            |
+| `persistent-search` | Continuous search — keeps finding candidates until you say stop        |
+| `jd-manager`        | Job description creation and management                                |
 
 ## Architecture
 
