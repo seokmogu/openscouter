@@ -6,6 +6,7 @@ OpenScouter is a personal AI recruitment assistant built on [OpenClaw](https://g
 It helps you **find, evaluate, match, and contact** talent — using the same messaging channels you already use.
 
 **No centralized talent DB.** Instead, your AI agent searches the open web:
+
 - 🔎 Google search for public profiles, portfolios, blog posts
 - 💻 GitHub — contribution history, tech stack, project quality
 - ✍️ Tech blogs & content — writing quality, expertise depth
@@ -63,16 +64,19 @@ openscouter gateway --port 18789
 
 ## Bundled Skills
 
-| Skill | Description |
-|-------|-------------|
-| `talent-search` | Multi-source candidate discovery (Google, GitHub, blogs, platforms) |
-| `candidate-eval` | Profile analysis, JD matching, scoring |
-| `outreach` | Personalized recruitment message generation |
-| `jd-manager` | Job description creation and management |
+| Skill             | Description                                                            |
+| ----------------- | ---------------------------------------------------------------------- |
+| `talent-search`   | Multi-source candidate discovery via Google dorking, GitHub, blogs     |
+| `google-dorking`  | Advanced Boolean search queries for finding people on the public web   |
+| `github-profiler` | Deep GitHub profile analysis — contributions, code quality, tech stack |
+| `candidate-eval`  | Profile analysis, JD matching, multi-dimensional scoring               |
+| `outreach`        | Personalized recruitment message generation                            |
+| `jd-manager`      | Job description creation and management                                |
 
 ## Architecture
 
 OpenScouter is an [OpenClaw](https://github.com/openclaw/openclaw) fork with:
+
 - Recruitment-specialized workspace templates (SOUL.md, AGENTS.md)
 - Bundled talent scouting skills
 - Recruiter-persona defaults
